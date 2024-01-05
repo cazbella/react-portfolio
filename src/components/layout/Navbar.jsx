@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary customNav">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Menu
+            Caroline Lane - Portfolio
           </Link>
           <button
             className="navbar-toggler"
@@ -28,7 +28,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/#skills">
+                <Link className="nav-link active" aria-current="page" to="/Skills">
                   Skills
                 </Link>
               </li>
@@ -38,12 +38,12 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/#CV">
+                <Link className="nav-link" to="/CV">
                   CV
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/#contact-me">
+                <Link className="nav-link" to="/Contact">
                   Contact Me
                 </Link>
               </li>
@@ -55,11 +55,11 @@ function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Quick Contact
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="mailto:carolinelane@live.co.uk">
+                    <a className="dropdown-item" href="mailto:cazbella@myyahoo.com">
                       Email
                     </a>
                   </li>
@@ -86,8 +86,8 @@ function Navbar() {
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="btn btn-primary btn-lg navCTA" to="mailto:carolinelane@live.co.uk" role="button">
-                  Contact Me
+                <Link className="btn btn-primary btn-lg navCTA" to="mailto:cazbella@myyahoo.com" role="button">
+                  Email Me
                 </Link>
               </li>
             </ul>

@@ -2,30 +2,33 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Layout/Navbar";
 import Work from "./Work.json";
+import Footer from "./components/Layout/Footer"; // Import the Footer component
 import MainCard from "./components/MainCard";
 import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
+import CV from "./components/pages/CV";
 import Home from "./components/pages/Home";
-
 import Skills from "./components/pages/Skills";
 
 function App() {
   return (
     <Router>
-      <div className="container">
-        <Navbar />
-       
-
-        {/* Routes */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects work={Work} />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
+      <div className="flex-container">
+        <div className="container">
+          <Navbar />
+          {/* Routes */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects work={Work} />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/CV" element={<CV />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      </Router>
-      );
+    </Router>
+  );
 }
 
-      export default App;
+export default App;

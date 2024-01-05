@@ -1,40 +1,19 @@
 body {
-  margin-top: 1.5rem !important;
+  margin-top: 1.5rem;
   padding: 20px;
 }
 
-.page-header h1 {
-  align-items: centre !important;
-  padding: 40px;
-  font-weight: bold;
-  font-size: 35px;
-}
-
-.jumbotron-header {
-  justify-content: left;
-}
-
-/* prevents text overlap upon resizing. help from ask BCS */
-.container-fluid .py-5 img {
-  float: none;
-  margin-right: 10px;
-  margin-top: 35px;
-}
-
-
-
-.bg-body-tertiary {
+.bg-body-tertiary,
+.customNav,
+.work-header,
+.card-body {
   background-color: rgb(160, 137, 182) !important;
 }
 
 .customNav {
-  background-color: rgb(160, 137, 182) !important;
   border-radius: 0.5rem;
-  /* Rounded corners*/
 }
 
-
-/* button in jumbotron */
 .btn-primary {
   border-color: black !important;
 }
@@ -44,23 +23,17 @@ body {
   background: rgb(136, 92, 177) !important;
 }
 
-/* 
-shadow hover */
 .btn-primary:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-
 .navCTA {
   margin-left: auto !important;
-
 }
 
-/* line in navbar to match former profile */
 .navbar-brand {
   border-right: 3px solid black !important;
   padding-right: 20px;
-
 }
 
 .dropdown-item:hover,
@@ -68,18 +41,10 @@ shadow hover */
   background-color: whitesmoke !important;
 }
 
-.navbar-nav .nav-link {
-  color: black;
-}
-
+.navbar-nav .nav-link,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
   color: black;
-}
-
-.card {
-  border: 2px solid #0b3c70;
-  /* Set the border thickness and color */
 }
 
 .dropdown-menu {
@@ -95,13 +60,7 @@ shadow hover */
   background: black;
 }
 
-.btn btn-primary btn-lg navCTA {
-  align-items: flex-end;
-}
-
 .work-header {
-  background-color: rgb(160, 137, 182);
-  color: black;
   text-align: left;
   padding: 10px !important;
   padding-left: 30px !important;
@@ -115,45 +74,12 @@ shadow hover */
   font-size: 25px;
 }
 
-
-.card-body {
-  background-color: rgb(160, 137, 182);
-  color: black;
-  max-height: 100%;
-  border-radius: 0.5rem !important;
-}
-
 .card-body a.btn {
   background-color: rgb(136, 92, 177);
   border-color: black;
   color: white;
-  align-items: flex-end !important;
+  align-items: flex-end;
 }
-
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  /* Set initial height to 0 */
-  padding-top: 75%;
-  /* 4:3 Aspect Ratio (75% = 3 / 4) */
-}
-
-.image-container img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-}
-
-
-
-.skills-title {
-  margin-top: 20px;
-}
-
 
 .icon-container {
   text-align: center;
@@ -165,7 +91,6 @@ shadow hover */
   max-width: 100%;
   height: auto;
   margin: 10px;
-
 }
 
 .icon:hover {
@@ -185,11 +110,6 @@ shadow hover */
   }
 }
 
-.skills {
-  height: 270px;
-}
-
-
 .col-lg-9 {
   display: flex;
   flex-direction: column;
@@ -206,15 +126,12 @@ shadow hover */
   .jumbotron .py-5 img {
     margin: 0 auto !important;
     display: block;
-    /* Ensure the image is treated as a block element */
   }
 
   .col-lg-9 {
     width: 100%;
     text-align: center;
-    /* Center the content */
     padding: 0 15px;
-    /* Adjust the padding as needed */
   }
 }
 
@@ -222,6 +139,5 @@ shadow hover */
   .card {
     column-count: 1 !important;
     column-gap: 1.25rem;
-    /* Adjust as needed */
   }
 }

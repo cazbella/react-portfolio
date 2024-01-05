@@ -2,7 +2,7 @@ import React from 'react';
 
 function MainCard() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mb-4"> {/* Add mb-4 for consistent margin */}
       <div className="row">
         <div className="col-12" id="cocktail-nights">
           <div className="card" style={{ width: '100%' }}>

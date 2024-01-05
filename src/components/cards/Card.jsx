@@ -1,10 +1,12 @@
 import React from 'react';
 import "./Card.css";
 
-function Card({ title, image, aref, information }) {
+// ... other imports
+
+function Card({ title, image, aref, information, className }) {
   return (
-    <div className="col-6">
-      <div className="card my-3 border-bottom rounded-bottom h-100">
+    <div className={`col-lg-6 mb-4 rounded-bottom ${className}`}>
+      <div className="card h-100"> {/* Use 'h-100' to make cards the same height */}
         <a href={aref} target="_blank" rel="noopener noreferrer">
           <div className="image-container">
             <img src={image} className="card-img-top" alt={`Screenshot of ${title}`} />
@@ -13,7 +15,9 @@ function Card({ title, image, aref, information }) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{information}</p>
-          <a href={aref} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Explore here</a>
+          <a href={aref} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            Explore here
+          </a>
         </div>
       </div>
     </div>
