@@ -2,19 +2,22 @@
     import Card from '../cards/Card';
     import MainCard from '../MainCard';
     import Header from "../layout/Header";
+    import "./Projects.css"
 
     function Projects({ work }) {
-    return (
-        <div>
-        <Header title="Projects" />
-        <MainCard className='mb-4' />
-        <div className="row card-deck mb-4">
-            {work.map((project) => (
-            <Card key={project.id} {...project} />
-            ))}
-        </div>
-        </div>
-    );
+        return (
+            <div className="projects-container">
+                <Header title="Projects" />
+                <div className="content-container">
+                    <MainCard className='mb-4' />
+                    <div className="row card-deck">
+                        {work.map((project) => (
+                            <Card key={project.id} {...project} />
+                        ))}
+                    </div>
+                </div>
+            </div>
+        );
     }
-
+    
     export default Projects;

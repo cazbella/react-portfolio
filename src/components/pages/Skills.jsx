@@ -40,7 +40,7 @@ function Skills() {
               />
               <div className="card-body">
                 <h5 className="card-title">Skills in Frontend Web Development</h5>
-                <p className="card-text">
+                <div className="card-text">
                   <strong>Frontend Skills:</strong>
                   <ul>
                     {frontendSkills.map((skill, index) => (
@@ -53,7 +53,7 @@ function Skills() {
                       <li key={index}>{skill}</li>
                     ))}
                   </ul>
-                </p>
+                </div>
                 <a href="https://www.edx.org/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                   Explore EdX
                 </a>
