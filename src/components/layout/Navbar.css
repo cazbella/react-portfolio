@@ -11,8 +11,8 @@
 
 .btn {
   
-}
-
+    align-items: flex-end;
+  }
 .dropdown-item:hover,
 .dropdown-item:active {
   background-color: whitesmoke !important;

@@ -29,7 +29,7 @@ function Contact() {
             <label htmlFor="message" className="form-label">Message</label>
             <textarea className="form-control" id="message" rows="3"></textarea>
           </div>
-          <button type="submit" className="btn btn">Submit</button>
+          <button type="submit" className="btn btn submit">Submit</button>
         </form>
       </div>
 
