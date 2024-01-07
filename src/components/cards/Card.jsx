@@ -1,11 +1,10 @@
-// Card.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
-function Card({ title, image, aref, information, className }) {
+function Card({ title, image, aref, arefrepo, information, className }) {
   return (
     <div className={`col-lg-6 mb-4 rounded-bottom ${className}`}>
       <div className="card h-100">
@@ -20,7 +19,7 @@ function Card({ title, image, aref, information, className }) {
           <a href={aref} className="btn" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGlobe} />
           </a>
-          <a href={aref} className="btn repo" target="_blank" rel="noopener noreferrer">
+          <a href={arefrepo} className="btn repo" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>

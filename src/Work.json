@@ -1,31 +1,50 @@
 [
-    {
-      "id": 1,
-      "title": "Work Day Scheduler",
-      "image": "images/Screenshot-landing-area-scheduler.png",
-      "aref": "https://cazbella.github.io/work-day-scheduler/",
-      "information": "This project involved creating a work day scheduler using HTML, CSS, JS. Use this to plan your working day!"
-    },
-    {
-      "id": 2,
-      "title": "Weather Forecast Dashboard",
-      "image": "images/screenshot-weather-search-showing-history.png",
-      "aref": "https://cazbella.github.io/weather-forecast-dashboard/",
-      "information": "This app uses an API call to Open Weather and displays current weather conditions and a five-day forecast."
-    },
-    {
-      "id": 3,
-      "title": "Coding Student Quiz",
-      "image": "images/Screenshot-first-question.png",
-      "aref": "https://cazbella.github.io/coding-student-quiz/",
-      "information": "This project involved creating a quiz using HTML, CSS and JavaScript."
-    },
-    {
-      "id": 4,
-      "title": "Music Webpage",
-      "image": "images/IMG_6315.JPG",
-      "aref": "https://www.facebook.com/CarolineBellaMusic",
-      "information": "One of my aims is to produce a website to showcase my upcoming shows."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Work Day Scheduler",
+    "image": "images/Screenshot-landing-area-scheduler.png",
+    "aref": "https://cazbella.github.io/work-day-scheduler/",
+    "arefrepo": "https://github.com/cazbella/work-day-scheduler",
+    "information": "This project involved creating a work day scheduler using HTML, CSS, JS. Use this to plan your working day!"
+  },
+  {
+    "id": 2,
+    "title": "Weather Forecast Dashboard",
+    "image": "images/screenshot-weather-search-showing-history.png",
+    "aref": "https://cazbella.github.io/weather-forecast-dashboard/",
+    "arefrepo": "https://github.com/cazbella/weather-forecast-dashboard",
+    "information": "This app uses an API call to Open Weather and displays current weather conditions and a five-day forecast."
+  },
+  {
+    "id": 3,
+    "title": "Coding Student Quiz",
+    "image": "images/Screenshot-first-question.png",
+    "aref": "https://cazbella.github.io/coding-student-quiz/",
+    "arefrepo": "https://github.com/cazbella/coding-student-quiz",
+    "information": "This project involved creating a quiz using HTML, CSS and JavaScript."
+  },
+  {
+    "id": 4,
+    "title": "Random Password Generator",
+    "image": "images/screenshot-password-generator.png",
+    "aref": "https://cazbella.github.io/random-password-generator/",
+    "arefrepo": "https://github.com/cazbella/random-password-generator",
+    "information": "Generate a random password with this application!"
+  },
+  {
+    "id": 4,
+    "title": "Team Profile Generator",
+    "image": "images/screenshot-cards.png",
+    "aref": "https://cazbella.github.io/team-profile-generator/",
+    "arefrepo": "https://github.com/cazbella/team-profile-generator",
+    "information": "Generate a view of your team with this app that utilises node.js."
+  },
+  {
+    "id": 4,
+    "title": "Birthday Cupcakes",
+    "image": "images/Screenshot-birthday-cupcakes.png",
+    "aref": "https://cazbella.github.io/birthday-cupcakes/",
+    "arefrepo": "https://github.com/cazbella/birthday-cupcakes",
+    "information": "This was a small, simple app to give my course-mates a cupcake on my birthday!"
+  }
+]

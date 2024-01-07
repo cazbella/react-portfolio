@@ -5,3 +5,7 @@
 .repo {
     margin-left: 10px;
 }
+
+.card {
+    border-radius: 1.5rem;
+  }

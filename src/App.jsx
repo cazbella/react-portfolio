@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./components/Layout/Navbar";
 import Work from "./Work.json";
-import Footer from "./components/Layout/Footer"; // Import the Footer component
-import MainCard from "./components/MainCard";
+import Footer from "./components/Layout/Footer"; 
 import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import CV from "./components/pages/CV";

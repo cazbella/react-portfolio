@@ -1,5 +1,8 @@
-.work-header
- {
-  background-color: rgb(160, 137, 182) !important;
-  
+.work-header {
+    background-color: rgb(160, 137, 182) !important;
+    text-align: left;
+    padding: 10px !important;
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+    border-radius: 0.5rem;
 }
