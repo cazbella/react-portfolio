@@ -23,8 +23,8 @@ Welcome to my React Portfolio! This project serves as a showcase of my skills, p
 Features:
 - Responsive Design: The portfolio is designed to be accessible and visually appealing across various devices and screen sizes.
 - Project Showcase: A dedicated section highlights key projects, each with detailed information, images, and links to the deployed application or repositories.
-- Contact Form: Allows visitors to get in touch with you easily through a contact form. All submissions are sent to your specified email address.
-- Interactive Resume: Embed an interactive resume for users to download and learn more about your professional background.
+- Contact Form: Allows visitors to get in touch with me easily through a contact form. The logic to send data to a server is not present (yet), but you can see in the console that the state is changed and data is set. 
+- CV - A copy of my CV and a link to a PDF version
 
 ## Installation
 Installation:

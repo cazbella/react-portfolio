@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
+
 
 import Header from "../layout/Header";
 import "./Contact.css";
@@ -87,6 +89,10 @@ function Contact() {
         <div className="container-fluid mb-4 rounded-3 work-header" id="icon-container">
           <div className="row">
             <div className="column">
+              {/* PDF CV Link */}
+              <a href="/pdf/cvpdf.pdf" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faFilePdf} className="icon" style={iconStyle} />
+              </a>
               <a href="https://www.linkedin.com/in/caroline-lane7" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} className="icon" style={iconStyle} />
               </a>
