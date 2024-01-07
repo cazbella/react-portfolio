@@ -10,9 +10,30 @@
     padding-left: 25px !important;
   }
 
-  .img-fluid {
-    padding-bottom: 20px !important;
+  .bs-border-radius-lg {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  /* .img-fluid {
+   
     border-radius: 1rem !important;
+  } */
+
+  .img-fluid {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  
+  .bs-border-radius-lg {
+    border-radius: 10px; 
   }
 
   

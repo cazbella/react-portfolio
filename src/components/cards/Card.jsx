@@ -1,3 +1,5 @@
+// Card.js
+
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -6,7 +8,7 @@ import './Card.css';
 
 function Card({ title, image, aref, arefrepo, information, className }) {
   return (
-    <div className={`col-lg-6 mb-4 rounded-bottom ${className}`}>
+    <div className={`col-lg-6 mb-4 rounded ${className}`}>
       <div className="card h-100">
         <a href={aref} target="_blank" rel="noopener noreferrer">
           <div className="image-container">

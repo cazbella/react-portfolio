@@ -7,8 +7,13 @@ function Jumbotron() {
     <div className="p-5 mb-4 rounded-3 jumbotron" id="about-me">
       <div className="container-fluid py-5">
         <div className="row">
-          <div className="col-sm-12 col-md-6 col-lg-3 bs-border-radius-lg)"><img className="img-fluid" src="images/IMG_9590.jpg"
-              alt="Headshot of Caroline Lane" /></div>
+        <div className="col-sm-12 col-md-6 col-lg-3 bs-border-radius-lg">
+              <img
+                className="img-fluid rounded"
+                src="images/IMG_9590.jpg"
+                alt="Headshot of Caroline Lane"
+              />
+            </div>
           <div className="col sm-12 col-md-6 col-lg-9 text-justify">
             <h1 id="jumbotron-header">Caroline Lane</h1>
             <p className="col-sm-12 col-md-8 fs-4">Hi! Great to meet you! My name is Caroline and I am a Junior
