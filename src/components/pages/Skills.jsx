@@ -32,7 +32,7 @@ function Skills() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <div className="card" style={{ width: "100%" }}>
+            <div className="card skills" >
               <img
                 src="images/IMG_1879.PNG"
                 className="card-img-top skills"

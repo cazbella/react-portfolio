@@ -15,7 +15,7 @@ function Card({ title, image, aref, information, className }) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{information}</p>
-          <a href={aref} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+          <a href={aref} className="btn" target="_blank" rel="noopener noreferrer">
             Explore here
           </a>
         </div>
