@@ -18,13 +18,22 @@
 
 
 ## Description
-Welcome to my React Portfolio! This project serves as a showcase of my skills, projects, and experiences in a visually appealing and interactive way. Built using React, this portfolio provides a dynamic and responsive user interface to explore my professional journey.
+Welcome to my React Portfolio! This project serves as a showcase of my skills, projects, and experiences in a visually appealing and interactive way. Built using React, this portfolio provides a dynamic and responsive user interface to explore my professional journey. My motivation for this project is to showcase my skills so far in Web Development.
 
 Features:
 - Responsive Design: The portfolio is designed to be accessible and visually appealing across various devices and screen sizes.
-- Project Showcase: A dedicated section highlights key projects, each with detailed information, images, and links to the deployed application or repositories.
-- Contact Form: Allows visitors to get in touch with me easily through a contact form. The logic to send data to a server is not present (yet), but you can see in the console that the state is changed and data is set. 
-- CV - A copy of my CV and a link to a PDF version
+- Skills - A comprehensive list of the skills I have gained so far as a front end developer.
+- Project Showcase: A dedicated section highlights key projects, each with detailed information, images, and links to the deployed application and repositories.
+- CV - A copy of my CV and a link to a PDF version.
+- Contact Form: Allows visitors to get in touch with me easily through a contact form. The logic to send data to a server is not present (yet), but you can see in the console that the state is changed and data is set. This page also includes another link to the CV as well as links to my email address, linked-in and Facebook profiles in order to ontact me via these methods. 
+
+### Challenges
+
+Getting started with this project was TOUGH! This was because it was so very different to other projects I have done. Using react is very involved and takes a lot of getting used to. Linking all the files and installing dependencies took a lot of time. As usual, CSS took me hours but I am pleased with the results. Deploying it to GitHub Pages was also a challenge. 
+
+### Credit
+
+I had help from my tutor and ask BCS for this challenge. I also used Stack Overflow extensively, as well as the React, Bootstrap and FontAwesome docs. 
 
 ## Installation
 Installation:
@@ -59,6 +68,8 @@ Visit http://localhost:3000 to view the app in your browser.
 
 
 ## Usage
+
+
 
 
 ## Contributing
