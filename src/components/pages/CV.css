@@ -1,3 +1,22 @@
 .cv-images {
     margin-top: 20px;
+    text-align: center; /* Align text within the container */
   }
+  
+  .cv-images img {
+    border-radius: 10px !important; /* Adjust the border-radius value as needed */
+  }
+  
+  .cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .cv-link {
+    color: black;
+    /* Add any other styles as needed */
+  }
+  

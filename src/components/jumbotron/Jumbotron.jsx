@@ -16,7 +16,7 @@ function Jumbotron() {
             </div>
           <div className="col sm-12 col-md-6 col-lg-9 text-justify">
             <h1 id="jumbotron-header">Caroline Lane</h1>
-            <p className="col-sm-12 col-md-8 fs-4">Hi! Great to meet you! My name is Caroline and I am a Junior
+            <p className="col-sm-12 col-md-8 fs-4">Hi! Welcome to my portfolio. Great to meet you! My name is Caroline and I am a Junior
               Web Developer with experience in Teaching children of all ages. I have a 1st class honours degree in
               Biomedical Science and Human Biology. I have also worked as a singer/songwriter for over 15 years, and
               have experience in sales and hospitality.</p>

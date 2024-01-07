@@ -4,15 +4,9 @@ body {
 }
 
 .bg-body-tertiary,
-.customNav,
-.work-header,
 .card-body {
   background-color: rgb(160, 137, 182) !important;
 }
-
-
-
-
 
 .btn-primary {
   border-color: black !important;
@@ -49,24 +43,14 @@ body {
   align-items: flex-end;
 }
 
-.icon-container {
-  text-align: center;
-  height: 100%;
-}
 
-.icon {
-  width: 15%;
-  max-width: 100%;
-  height: auto;
-  margin: 10px;
-}
 
 .icon:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.cv-link {
-  color: black;
+.skills {
+  margin-bottom: 20px;
 }
 
 
@@ -95,8 +79,4 @@ body {
     text-align: center;
     padding: 0 15px;
   }
-}
-
-.skills {
-  margin-bottom: 20px;
 }
