@@ -4,6 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="container">
+    <div className="container">
       <div className="card text-center">
         <div className="card-header"></div>
         <div className="card-body">
@@ -15,6 +16,7 @@ function Footer() {
           Thank you for Visiting!
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import "./Card.css";
 
-// ... other imports
-
 function Card({ title, image, aref, information, className }) {
   return (
     <div className={`col-lg-6 mb-4 rounded-bottom ${className}`}>

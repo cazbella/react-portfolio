@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../layout/Header";
 
 function CV() {
   return (
     <div>
-      <h2>CV</h2>
+       <Header title="CV" />
       {/* contace me details */}
     </div>
   );

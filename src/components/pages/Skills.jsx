@@ -1,5 +1,5 @@
-// Skills.jsx
 import React from "react";
+import Header from "../layout/Header";
 
 function Skills() {
   const frontendSkills = [
@@ -28,7 +28,7 @@ function Skills() {
 
   return (
     <div>
-      <h2>Skills</h2>
+      <Header title="Skills" />
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
