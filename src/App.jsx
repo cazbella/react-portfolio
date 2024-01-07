@@ -1,5 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import * as bootstrap from 'bootstrap';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./components/Layout/Navbar";
 import Work from "./Work.json";
 import Footer from "./components/Layout/Footer"; 
