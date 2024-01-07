@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -7,7 +7,35 @@ import Header from "../layout/Header";
 import "./Contact.css";
 
 function Contact() {
-  const iconStyle = { color: "black" }; // variable to store the colour style
+  // colour for icons
+  const iconStyle = { color: "black" };
+  //form logic - from class
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  //e is event - could be any name
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // need logic here to handle form submission, e.g send data to a server or process it in another way
+    console.log("Form submitted:", formData);
+    // klear form after submission
+    setFormData({
+      name: "",
+      email: "",
+      message: ""
+    });
+  };
 
   return (
     <div>
@@ -16,18 +44,39 @@ function Contact() {
       {/* Bootstrap Contact Form */}
       <div className="container mt-4">
         <h2>Contact Form</h2>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">Name</label>
-            <input type="text" className="form-control" id="name" />
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleInputChange}
+            />
           </div>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">Email address</label>
-            <input type="email" className="form-control" id="email" />
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleInputChange}
+            />
           </div>
           <div className="mb-3">
             <label htmlFor="message" className="form-label">Message</label>
-            <textarea className="form-control" id="message" rows="3"></textarea>
+            <textarea
+              className="form-control"
+              id="message"
+              name="message"
+              rows="3"
+              value={formData.message}
+              onChange={handleInputChange}
+            ></textarea>
           </div>
           <button type="submit" className="btn btn submit">Submit</button>
         </form>
