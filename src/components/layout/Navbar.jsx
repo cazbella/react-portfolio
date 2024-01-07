@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="container-fluid mb-4">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary customNav">
+      <nav className="navbar navbar-expand-lg customNav">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             Caroline Lane - Portfolio

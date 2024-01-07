@@ -4,7 +4,7 @@ import "./Jumbotron.css";
 function Jumbotron() {
   return (
     <div className="container-fluid">
-    <div className="p-5 mb-4 bg-body-tertiary rounded-3 jumbotron" id="about-me">
+    <div className="p-5 mb-4 rounded-3 jumbotron" id="about-me">
       <div className="container-fluid py-5">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-3"><img className="img-fluid" src="images/IMG_9590.jpg"
