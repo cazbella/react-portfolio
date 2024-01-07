@@ -10,7 +10,7 @@ function Jumbotron() {
         <div className="col-sm-12 col-md-6 col-lg-3 bs-border-radius-lg">
               <img
                 className="img-fluid rounded"
-                src="images/IMG_9590.jpg"
+                src="./public/images/IMG_9590.jpg"
                 alt="Headshot of Caroline Lane"
               />
             </div>
