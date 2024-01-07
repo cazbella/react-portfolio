@@ -1,10 +1,14 @@
+// Card.js
 import React from 'react';
-import "./Card.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import './Card.css';
 
 function Card({ title, image, aref, information, className }) {
   return (
     <div className={`col-lg-6 mb-4 rounded-bottom ${className}`}>
-      <div className="card h-100"> {/* Use 'h-100' to make cards the same height */}
+      <div className="card h-100">
         <a href={aref} target="_blank" rel="noopener noreferrer">
           <div className="image-container">
             <img src={image} className="card-img-top" alt={`Screenshot of ${title}`} />
@@ -14,7 +18,10 @@ function Card({ title, image, aref, information, className }) {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{information}</p>
           <a href={aref} className="btn" target="_blank" rel="noopener noreferrer">
-            Explore here
+            <FontAwesomeIcon icon={faGlobe} />
+          </a>
+          <a href={aref} className="btn repo" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </div>

@@ -1,3 +1,7 @@
 .roundedBottom {
     border-radius: 1rem !important;
 }
+
+.repo {
+    margin-left: 10px;
+}
