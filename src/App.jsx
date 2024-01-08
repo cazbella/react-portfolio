@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -14,7 +14,7 @@ import Skills from "./components/pages/Skills";
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <Router>
       <div className="flex-container">
         <div className="container">
           <Navbar />
