@@ -4,9 +4,10 @@ import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 
-
 import Header from "../layout/Header";
 import "./Contact.css";
+
+import cdpdf from "../../assets/pdf/cvpdf.pdf";
 
 function Contact() {
   // colour for icons
@@ -90,7 +91,8 @@ function Contact() {
           <div className="row">
             <div className="column">
               {/* PDF CV Link */}
-              <a href="/pdf/cvpdf.pdf" target="_blank" rel="noopener noreferrer">
+              <a href={cdpdf}
+              target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFilePdf} className="icon" style={iconStyle} />
               </a>
               <a href="https://www.linkedin.com/in/caroline-lane7" target="_blank" rel="noopener noreferrer">

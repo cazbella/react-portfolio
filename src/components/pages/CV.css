@@ -1,21 +1,18 @@
 .cv-images {
-    margin-top: 20px;
-    text-align: center; /* Align text within the container */
-  }
-  
-  .cv-images img {
-    border-radius: 10px !important; 
-    max-width: 95%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    margin-right: 30px ;
-    margin-bottom: 30px;
-  }
+  margin-top: 20px;
+  text-align: center; /* Align text within the container */
+}
+
+.cv-images img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  /* margin-right: 50px; */
+}
+
 /*   
   .cv-container {
     display: flex;
