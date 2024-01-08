@@ -34,7 +34,7 @@ Features:
 
 ### Challenges
 
-Getting started with this project was TOUGH! This was because it was so very different to other projects I have done. Using react is very involved and takes a lot of getting used to. Linking all the files and installing dependencies took a lot of time. As usual, CSS took me hours but I am pleased with the results. Deploying it to GitHub Pages was also a challenge. 
+Getting started with this project was TOUGH! This was because it was so very different to other projects I have done. Using react is very involved and takes a lot of getting used to. Linking all the files and installing dependencies took a lot of time. As usual, CSS took me hours but I am pleased with the results. Deploying it to GitHub Pages was also a challenge. I have learned that everything must be imported and exported before the application will work, and there are many interacting things that could go wrong!
 
 ### Credit
 
