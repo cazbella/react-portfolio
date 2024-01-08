@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../layout/Header";
-import badgesImage from "../../assets/images/IMG_1879.jpg";
+import badgesImage from "../../assets/images/IMG_1879.png"; 
 
 function Skills() {
   const frontendSkills = [
@@ -35,7 +35,7 @@ function Skills() {
           <div className="col-12">
             <div className="card skills" >
               <img
-                src={badgesImage}
+                src={badgesImage} style={{ height: '400px', objectFit: 'cover', objectPosition: 'top'   }} 
                 className="card-img-top skills"
                 alt="HTML, Java Script and CSS Shield badges"
               />
