@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import cocktailScreenshot from "../assets/images/screenshot-landing-area 2.png";
 
 function MainCard() {
   return (
@@ -10,7 +11,8 @@ function MainCard() {
         <div className="col-12" id="cocktail-nights">
           <div className="card" style={{ width: '100%' }}>
             <a href="https://cazbella.github.io/mums-night/" target="_blank" rel="noopener noreferrer">
-              <img src="images/screenshot-landing-area 2.png" className="card-img-top" alt="Screenshot of Cocktail Nights landing page" style={{ height: '350px', objectFit: 'cover', objectPosition: 'top'   }}  />
+              <img src={cocktailScreenshot}
+              className="card-img-top" alt="Screenshot of Cocktail Nights landing page" style={{ height: '350px', objectFit: 'cover', objectPosition: 'top'   }}  />
             </a>
             <div className="card-body">
               <h5 className="card-title">Cocktail Nights</h5>

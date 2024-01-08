@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../layout/Header";
 import "./CV.css";
+import cvImage1 from "../../assets/images/cv-image1.jpg";
+import cvImage2 from "../../assets/images/cv-image2.jpg";
 
 function CV() {
   return (
@@ -14,10 +16,10 @@ function CV() {
           </a>
           <br />
           <div className="cv-images">
-            <img src="./images/cv-image1.jpg" alt="CV Image 1" />
+            <img src={cvImage1} alt="CV Image 1" />
             <br />
             <br />
-            <img src="./images/cv-image2.jpg" alt="CV Image 2" />
+            <img src={cvImage2} alt="CV Image 2" />
           </div>
         </div>
       </div>
