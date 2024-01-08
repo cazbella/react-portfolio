@@ -5,18 +5,19 @@
 
 .cv-images img {
   border-radius: 10px;
-  max-width: 99%;
-  display: block;
+  max-width: 100%; 
+  display: inline-block;
   margin: 0 auto;
   margin-bottom: 30px;
-  margin-right: 17px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .cv-images img {
-    margin-right: 2px;
+    margin-right: 20px;
   }
-}
+} */
+
+
 
 /* .cv-container {
   display: flex;
