@@ -11,7 +11,7 @@ function CV() {
     <div>
       <Header title="CV" />
       <div className="container-fluid mb-4 cv-container">
-        <div className="container-fluid mb-4 rounded-3 work-header" id="cv-container">
+        <div className="container-fluid mb-4 rounded-3 work-header mx-auto" id="cv-container">
           <p>Please find a link below to my CV in PDF format and images of my CV.</p>
           <a href={cdpdf} target="_blank" rel="noopener noreferrer" className="cv-link">
             Open CV (PDF)
@@ -19,8 +19,6 @@ function CV() {
           <br />
           <div className="cv-images">
             <img src={cvImage1} alt="CV Image 1" />
-            <br />
-            <br />
             <img src={cvImage2} alt="CV Image 2" />
           </div>
         </div>

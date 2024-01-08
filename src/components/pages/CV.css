@@ -5,25 +5,28 @@
 
 .cv-images img {
   border-radius: 10px;
-  max-width: 100%;
-  height: auto;
+  max-width: 99%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; /* Center the image horizontally */
   margin-bottom: 30px;
-  /* margin-right: 50px; */
+  margin-right: 17px;
 }
 
-/*   
-  .cv-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+@media (min-width: 768px) {
+  .cv-images img {
+    margin-right: 33px;
   }
-   */
-  .cv-link {
-    color: black;
-    /* Add any other styles as needed */
-  }
-  
+}
+
+/* .cv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+.cv-link {
+  color: black;
+  /* Add any other styles as needed */
+}
