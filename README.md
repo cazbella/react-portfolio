@@ -18,6 +18,11 @@
 
 
 ## Description
+
+Find the deployed application here: 
+
+https://cazbella.github.io/react-portfolio/
+
 Welcome to my React Portfolio! This project serves as a showcase of my skills, projects, and experiences in a visually appealing and interactive way. Built using React, this portfolio provides a dynamic and responsive user interface to explore my professional journey. My motivation for this project is to showcase my skills so far in Web Development.
 
 Features:
@@ -33,7 +38,7 @@ Getting started with this project was TOUGH! This was because it was so very dif
 
 ### Credit
 
-I had help from my tutor and ask BCS for this challenge. I also used Stack Overflow extensively, as well as the React, Bootstrap and FontAwesome docs. 
+I had help from my tutor and ask BCS for this challenge. I also used Stack Overflow extensively, as well as the React, Bootstrap and FontAwesome docs. I also used lots of code examples from the lessons this week. 
 
 ## Installation
 Installation:
@@ -69,8 +74,29 @@ Visit http://localhost:3000 to view the app in your browser.
 
 ## Usage
 
+Upon loading you can click on 'Home' and see the home page, as shown below. 
 
+![Landing area](./src/assets/images/landing-area-react.png)
 
+Use the buttons in the navigation bar to explore the pages, as shown in the below images.
+
+My Skills...
+
+![Skills Page](./src/assets/images/skills.png)
+
+My Projects...
+
+![Projects](./src/assets/images/projects.png)
+
+My CV
+
+![CV page](./src/assets/images/cv-lamding.png)
+
+And finally a Contact page
+
+![Contact Page](./src/assets/images/contact-page.png)
+
+This page also has a link to my CV in PDF format. 
 
 ## Contributing
-Contributions to this project are welcome and encouraged! If you have ideas for new features, find a bug, or want to improve the documentation, feel free to contribute. To contribute to the project fork the repository on GitHub. Clone your forked repository to your local machine. Create a new branch with a descriptive name for your contribution: git checkout -b feature/new-feature or git checkout -b bug/fix-bug. Then make your changes and commit them with a clear message. Push your changes to your forked repository and open a pull request in the main repository with a detailed description of your changes. Please follow the project's coding style and adhere to the existing conventions. By contributing, you agree that your contributions will be licensed under the project's license. Thank you for helping make my Professional Readme better!
+Contributions to this project are welcome and encouraged! If you have ideas for new features, find a bug, or want to improve the documentation, feel free to contribute. To contribute to the project fork the repository on GitHub. Clone your forked repository to your local machine. Create a new branch with a descriptive name for your contribution: git checkout -b feature/new-feature or git checkout -b bug/fix-bug. Then make your changes and commit them with a clear message. Push your changes to your forked repository and open a pull request in the main repository with a detailed description of your changes. Please follow the project's coding style and adhere to the existing conventions. By contributing, you agree that your contributions will be licensed under the project's license. Thank you for helping make my portfolio better!

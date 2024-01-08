@@ -14,7 +14,7 @@ import Skills from "./components/pages/Skills";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio/Home">
       <div className="flex-container">
         <div className="container">
           <Navbar />
