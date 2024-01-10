@@ -15,7 +15,7 @@
 .cv-images img {
   border-radius: 10px;
   max-width: 92%;
-  margin: 20px;
+  margin: 10px;
 }
 
 
@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
   .cv-images {
-    flex-direction: column;
+    margin-right: 20px;
   }
 }
 
