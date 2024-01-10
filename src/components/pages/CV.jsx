@@ -17,7 +17,7 @@ function CV() {
             Open CV (PDF)
           </a>
           <br />
-          <div className="cv-images">
+          <div className="cv-images mx-auto">
             <img src={cvImage1} alt="CV Image 1" />
             <img src={cvImage2} alt="CV Image 2" />
           </div>

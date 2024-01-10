@@ -3,6 +3,14 @@
   padding-right: 20px;
 }
 
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
+}
+
+
 
 .customNav {
   background-color: rgb(160, 137, 182) !important;

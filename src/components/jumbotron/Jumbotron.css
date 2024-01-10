@@ -28,3 +28,20 @@
   border-radius: 10px; 
 }
 
+@media (max-width: 969px) {
+  .jumbotron .container-fluid {
+    text-align: center;
+  }
+
+  .jumbotron .py-5 img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .col-lg-9 {
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+  }
+}
+

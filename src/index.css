@@ -3,18 +3,13 @@ body {
   padding: 20px;
 }
 
-.bg-body-tertiary,
-.card-body {
-  background-color: rgb(160, 137, 182) !important;
-}
-
 .btn-primary {
-  border-color: black !important;
+  border-color: black;
 }
 
 .btn-primary.btn-lg {
   color: white;
-  background: rgb(136, 92, 177) !important;
+  background: rgb(136, 92, 177);
 }
 
 .btn-primary:hover {
@@ -35,16 +30,6 @@ body {
   background: black;
 }
 
-
-.card-body a.btn {
-  background-color: rgb(136, 92, 177);
-  border-color: black;
-  color: white;
-  align-items: flex-end;
-}
-
-
-
 .icon:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -52,7 +37,6 @@ body {
 .skills {
   margin-bottom: 20px;
 }
-
 
 @media (max-width: 768px) {
   img {
@@ -64,19 +48,3 @@ body {
 
 
 
-@media (max-width: 969px) {
-  .jumbotron .container-fluid {
-    text-align: center;
-  }
-
-  .jumbotron .py-5 img {
-    margin: 0 auto !important;
-    display: block;
-  }
-
-  .col-lg-9 {
-    width: 100%;
-    text-align: center;
-    padding: 0 15px;
-  }
-}

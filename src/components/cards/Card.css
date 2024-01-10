@@ -18,4 +18,16 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+
+  .bg-body-tertiary,
+.card-body {
+  background-color: rgb(160, 137, 182);
+}
   
+.card-body a.btn {
+  background-color: rgb(136, 92, 177);
+  border-color: black;
+  color: white;
+  align-items: flex-end;
+}
+
