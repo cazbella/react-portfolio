@@ -9,6 +9,7 @@
   align-items: center;
   padding-left: 25px !important;
   margin-top: 20px;
+  text-align: center;
 }
 
 .bs-border-radius-lg {
@@ -19,6 +20,7 @@
 
 .img-fluid {
   margin-bottom: 20px;
+  margin-top: 20px;
   max-width: 100%;
   height: auto;
   border-radius: 10px; 
