@@ -2,7 +2,7 @@
     import Card from '../cards/Card';
     import MainCard from '../MainCard';
     import Header from "../layout/Header";
-    import "./Projects.css"
+    import "./Projects.css";
 
     function Projects({ work }) {
         return (

@@ -3,17 +3,17 @@
     "id": 1,
     "title": "Caroline Bella Music",
     "image": "./assets/images/caroline-bella-music.png",
-    "aref": "https://cazbella.github.io/",
-    "arefrepo": "https://github.com/cazbella/",
-    "information": ""
+    "aref": "http://carolinebellamusic.co.uk",
+    "arefrepo": "https://github.com/cazbella/caroline-bella-music",
+    "information": "This is a music website showcasing my musical skills!"
   },
   {
     "id": 2,
-    "title": "Work Day Scheduler",
-    "image": "./assets/images/Screenshot-landing-area-scheduler.png",
-    "aref": "https://cazbella.github.io//",
-    "arefrepo": "https://github.com/cazbella/",
-    "information": "A website created for Bridgtown Concert Showband"
+    "title": "Bridgetown Concert Showband",
+    "image": "./assets/images/bridgtown.png",
+    "aref": "https://bridgtown-concert-band.netlify.app",
+    "arefrepo": "https://github.com/cazbella/bridgtown-concert-band",
+    "information": "A website for Brigtown Concert Showband"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "image": "./assets/images/Screenshot-first-question.png",
     "aref": "https://cazbella.github.io/coding-student-quiz/",
     "arefrepo": "https://github.com/cazbella/coding-student-quiz",
-    "information": "This project involved creating a quiz using HTML, CSS and JavaScript."
+    "information": "A quiz made using HTML, CSS & JS."
   },
   {
     "id": 6,
@@ -61,6 +61,6 @@
     "image": "./assets/images/Screenshot-birthday-cupcakes.png",
     "aref": "https://cazbella.github.io/birthday-cupcakes/",
     "arefrepo": "https://github.com/cazbella/birthday-cupcakes",
-    "information": "This was a small, simple app to give my course-mates a cupcake on my birthday!"
+    "information": "This was a small, simple app to give out cakes on my birthday!"
   }
 ]

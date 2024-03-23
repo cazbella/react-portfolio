@@ -5,14 +5,14 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
 // Import images
+import carolineBellaMusic from '../../assets/images/caroline-bella-music.png'
+import bridgetownBand from '../../assets/images/Bridgtown.png'
 import landingAreaSchedulerImage from '../../assets/images/Screenshot-landing-area-scheduler.png';
 import weatherForecastImage from '../../assets/images/screenshot-weather-search-showing-history.png';
 import codingStudentQuizImage from '../../assets/images/Screenshot-first-question.png';
 import passwordGeneratorImage from '../../assets/images/screenshot-password-generator.png';
 import teamProfileImage from '../../assets/images/screenshot-cards.png';
 import birthdayCupcakesImage from '../../assets/images/Screenshot-birthday-cupcakes.png';
-import carolineBellaMusic from '../../assets/images/caroline-bella-music.png'
-import bridgetownBand from '../../assets/images/bridgtown.png'
 
 function Card({ title, image, aref, arefrepo, information, className }) {
   // Using the imported images directly as they disappeared
@@ -21,8 +21,10 @@ function Card({ title, image, aref, arefrepo, information, className }) {
   switch (title) {
     case "Caroline Bella Music":
       imagePath = carolineBellaMusic;
-    case "Bridgtown Concert Showband":
+      break;
+    case "Bridgetown Concert Showband":
       imagePath = bridgetownBand;
+      break;
     case "Work Day Scheduler":
       imagePath = landingAreaSchedulerImage;
       break;
@@ -44,6 +46,7 @@ function Card({ title, image, aref, arefrepo, information, className }) {
     default:
       imagePath = image;
   }
+  
 
   return (
     <div className={`col-lg-6 mb-4 ${className}`}>
