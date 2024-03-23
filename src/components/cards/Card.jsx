@@ -11,12 +11,18 @@ import codingStudentQuizImage from '../../assets/images/Screenshot-first-questio
 import passwordGeneratorImage from '../../assets/images/screenshot-password-generator.png';
 import teamProfileImage from '../../assets/images/screenshot-cards.png';
 import birthdayCupcakesImage from '../../assets/images/Screenshot-birthday-cupcakes.png';
+import carolineBellaMusic from '../../assets/images/caroline-bella-music.png'
+import bridgetownBand from '../../assets/images/bridgtown.png'
 
 function Card({ title, image, aref, arefrepo, information, className }) {
   // Using the imported images directly as they disappeared
   let imagePath;
 
   switch (title) {
+    case "Caroline Bella Music":
+      imagePath = carolineBellaMusic;
+    case "Bridgtown Concert Showband":
+      imagePath = bridgetownBand;
     case "Work Day Scheduler":
       imagePath = landingAreaSchedulerImage;
       break;

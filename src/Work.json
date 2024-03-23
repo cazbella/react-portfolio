@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
+    "title": "Caroline Bella Music",
+    "image": "./assets/images/caroline-bella-music.png",
+    "aref": "https://cazbella.github.io/",
+    "arefrepo": "https://github.com/cazbella/",
+    "information": ""
+  },
+  {
+    "id": 2,
+    "title": "Work Day Scheduler",
+    "image": "./assets/images/Screenshot-landing-area-scheduler.png",
+    "aref": "https://cazbella.github.io//",
+    "arefrepo": "https://github.com/cazbella/",
+    "information": "A website created for Bridgtown Concert Showband"
+  },
+  {
+    "id": 3,
     "title": "Work Day Scheduler",
     "image": "./assets/images/Screenshot-landing-area-scheduler.png",
     "aref": "https://cazbella.github.io/work-day-scheduler/",
@@ -8,7 +24,7 @@
     "information": "This project involved creating a work day scheduler using HTML, CSS, JS. Use this to plan your working day!"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Weather Forecast Dashboard",
     "image": "./assets/images/screenshot-weather-search-showing-history.png",
     "aref": "https://cazbella.github.io/weather-forecast-dashboard/",
@@ -16,7 +32,7 @@
     "information": "This app uses an API call to Open Weather and displays current weather conditions and a five-day forecast."
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Coding Student Quiz",
     "image": "./assets/images/Screenshot-first-question.png",
     "aref": "https://cazbella.github.io/coding-student-quiz/",
@@ -24,7 +40,7 @@
     "information": "This project involved creating a quiz using HTML, CSS and JavaScript."
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Random Password Generator",
     "image": "./assets/images/screenshot-password-generator.png",
     "aref": "https://cazbella.github.io/random-password-generator/",
@@ -32,7 +48,7 @@
     "information": "Generate a random password with this application!"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Team Profile Generator",
     "image": "./assets/images/screenshot-cards.png",
     "aref": "https://cazbella.github.io/team-profile-generator/",
@@ -40,7 +56,7 @@
     "information": "Generate a view of your team with this app that utilises node.js."
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Birthday Cupcakes",
     "image": "./assets/images/Screenshot-birthday-cupcakes.png",
     "aref": "https://cazbella.github.io/birthday-cupcakes/",
