@@ -62,21 +62,5 @@
     "aref": "https://cazbella.github.io/birthday-cupcakes/",
     "arefrepo": "https://github.com/cazbella/birthday-cupcakes",
     "information": "This was a small, simple app to give out cakes on my birthday!"
-  },
-  {
-    "id": 1,
-    "title": "Caroline Bella Music",
-    "image": "./assets/images/caroline-bella-music.png",
-    "aref": "http://carolinebellamusic.co.uk",
-    "arefrepo": "https://github.com/cazbella/caroline-bella-music",
-    "information": "This is a music website showcasing my musical skills!"
-  },
-  {
-    "id": 2,
-    "title": "Bridgetown Concert Showband",
-    "image": "./assets/images/bridgtown.png",
-    "aref": "https://bridgtown-concert-band.netlify.app",
-    "arefrepo": "https://github.com/cazbella/bridgtown-concert-band",
-    "information": "A website for Brigtown Concert Showband"
   }
 ]
