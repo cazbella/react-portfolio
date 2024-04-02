@@ -5,8 +5,8 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
 // Import images
-import carolineBellaMusic from '../../assets/images/caroline-bella-music.png'
-import bridgetownBand from '../../assets/images/Bridgtown.png'
+import carolineBellaMusic from '../../assets/images/caroline-bella-music.png';
+import bridgetownBand from '../../assets/images/bridgtown.png';
 import landingAreaSchedulerImage from '../../assets/images/Screenshot-landing-area-scheduler.png';
 import weatherForecastImage from '../../assets/images/screenshot-weather-search-showing-history.png';
 import codingStudentQuizImage from '../../assets/images/Screenshot-first-question.png';
