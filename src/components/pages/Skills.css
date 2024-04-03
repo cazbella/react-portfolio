@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .certificate {
+      width: 100%;
+    }
+  }
+  
+  .certificate {
+    border-radius: 1.5rem;
+    border: 1px black solid;
+  }
+
+  .skills {
+    border: none;
+  }
+
+  .skill-bullets {
+    border-radius: 1.5rem;
+    border: 1px black solid;
+  }

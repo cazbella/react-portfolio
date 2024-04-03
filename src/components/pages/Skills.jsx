@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../layout/Header";
-import badgesImage from "../../assets/images/IMG_1879.png"; 
+import certificate from "../../assets/images/edx-cert.jpg"; 
+import "./../pages/Skills.css"
 
 function Skills() {
   const frontendSkills = [
@@ -14,17 +15,22 @@ function Skills() {
     "API's",
     "JQuery",
     "JSON",
+    "SQL",
+    "Python",
     "Node.js",
     "ES6",
     "React",
+    "OOP",
+    "Stacks and Queues",
+    "Building API"
   ];
 
   const otherSkills = [
-    "Python",
     "Completed module on Data Analytics at Staffordshire University",
     "Team collaboration",
     "Agile development",
     "Presenting",
+    "Planning and Problem Solving"
   ];
 
   return (
@@ -33,16 +39,15 @@ function Skills() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <div className="card skills" >
+            <div className="card skills">
               <img
-                src={badgesImage} style={{ height: '400px', objectFit: 'cover', objectPosition: 'top'   }} 
-                className="card-img-top skills"
+                className="certificate"
+                src={certificate}
                 alt="HTML, Java Script and CSS Shield badges"
               />
-              <div className="card-body">
-                <h5 className="card-title">Skills in Frontend Web Development</h5>
+              <div className="card-body skill-bullets">
+                <h5 className="card-title">Skills in Web and Software Development</h5>
                 <div className="card-text">
-                  <strong>Frontend Skills:</strong>
                   <ul>
                     {frontendSkills.map((skill, index) => (
                       <li key={index}>{skill}</li>
