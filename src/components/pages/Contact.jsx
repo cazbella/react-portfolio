@@ -10,16 +10,14 @@ import "./Contact.css";
 import cdpdf from "../../assets/pdf/cvpdf.pdf";
 
 function Contact() {
-  // colour for icons
   const iconStyle = { color: "black" };
-  //form logic - from class
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: ""
   });
 
-  //e is event - could be any name
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -28,23 +26,38 @@ function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // need logic here to handle form submission, e.g send data to a server or process it in another way
-    console.log("Form submitted:", formData);
-    // klear form after submission
-    setFormData({
-      name: "",
-      email: "",
-      message: ""
-    });
+
+    try {
+      const response = await fetch('https://formspree.io/f/xwkgaqrb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        console.log('Form submitted successfully!');
+        // Clear form after submission
+        setFormData({
+          name: "",
+          email: "",
+          message: ""
+        });
+      } else {
+        console.error('Form submission failed.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (
     <div>
       <Header title="Contact" />
 
-      {/* Bootstrap Contact Form */}
       <div className="container mt-4">
         <h2>Contact Form</h2>
         <form onSubmit={handleSubmit}>
@@ -85,14 +98,11 @@ function Contact() {
         </form>
       </div>
 
-      {/* Icons */}
       <div className="container-fluid mb-4 icon-container">
         <div className="container-fluid mb-4 rounded-3 work-header" id="icon-container">
           <div className="row">
             <div className="column">
-              {/* PDF CV Link */}
-              <a href={cdpdf}
-              target="_blank" rel="noopener noreferrer">
+              <a href={cdpdf} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFilePdf} className="icon" style={iconStyle} />
               </a>
               <a href="https://www.linkedin.com/in/caroline-lane7" target="_blank" rel="noopener noreferrer">
