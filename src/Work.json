@@ -5,7 +5,7 @@
     "image": "./assets/images/screenshot-cocktail-nights.png",
     "aref": "https://cazbella.github.io/mums-night/",
     "arefrepo": "https://github.com/cazbella/mums-night",
-    "information": "A cocktail recipe and cocktail bar finder using web APIs"
+    "information": "A cocktail recipe and cocktail bar finder using web APIs."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "image": "./assets/images/caroline-bella-music.png",
     "aref": "http://carolinebellamusic.co.uk",
     "arefrepo": "https://github.com/cazbella/caroline-bella-music",
-    "information": "This is a music website showcasing my musical skills!"
+    "information": "This is a music website showcasing the artist Caroline Bella."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "image": "./assets/images/bridgtown.png",
     "aref": "https://bridgtown-concert-band.netlify.app",
     "arefrepo": "https://github.com/cazbella/bridgtown-concert-band",
-    "information": "A website for Brigtown Concert Showband"
+    "information": "A website for Brigtown Concert Showband."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "image": "./assets/images/Screenshot-landing-area-scheduler.png",
     "aref": "https://cazbella.github.io/work-day-scheduler/",
     "arefrepo": "https://github.com/cazbella/work-day-scheduler",
-    "information": "This project involved creating a work day scheduler using HTML, CSS, JS. Use this to plan your working day!"
+    "information": "A planner for your working day!"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "image": "./assets/images/screenshot-weather-search-showing-history.png",
     "aref": "https://cazbella.github.io/weather-forecast-dashboard/",
     "arefrepo": "https://github.com/cazbella/weather-forecast-dashboard",
-    "information": "This app uses an API call to Open Weather and displays current weather conditions and a five-day forecast."
+    "information": "Using the Open Weather API to display afive-day forecast."
   },
   {
     "id": 6,

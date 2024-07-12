@@ -16,7 +16,7 @@ function MainCard() {
             </a>
             <div className="card-body">
               <h5 className="card-title">Cocktail Nights</h5>
-              <p className="card-text">My first major project as a front end developer, this project involved taking an idea from scratch and development from user to story to MVP and beyond.</p>
+              <p className="card-text">Find Cocktail Recipes based on selected ingredients! This project uses React, Flask and mySQL</p>
               <a href="https://cazbella.github.io/CocktailCreations/" className="btn" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGlobe} /></a>
               <a href="https://github.com/cazbella/CocktailCreations/" className="btn repo" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
