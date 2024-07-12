@@ -5,6 +5,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import './Card.css';
 
 // Import images
+import cocktailNightsImage from '../../assets/images/screenshot-cocktail-nights.png'
 import carolineBellaMusic from '../../assets/images/caroline-bella-music.png';
 import bridgetownBand from '../../assets/images/bridgtown.png';
 import landingAreaSchedulerImage from '../../assets/images/Screenshot-landing-area-scheduler.png';
@@ -13,12 +14,16 @@ import codingStudentQuizImage from '../../assets/images/Screenshot-first-questio
 import passwordGeneratorImage from '../../assets/images/screenshot-password-generator.png';
 import teamProfileImage from '../../assets/images/screenshot-cards.png';
 import birthdayCupcakesImage from '../../assets/images/Screenshot-birthday-cupcakes.png';
+import emojiMoodsImage from '../../assets/images/Screenshot-emoji-moods.png';
 
 function Card({ title, image, aref, arefrepo, information, className }) {
   // Using the imported images directly as they disappeared
   let imagePath;
 
   switch (title) {
+    case "Cocktail Nights":
+      imagePath = cocktailNightsImage;
+      break;
     case "Caroline Bella Music":
       imagePath = carolineBellaMusic;
       break;
@@ -42,6 +47,9 @@ function Card({ title, image, aref, arefrepo, information, className }) {
       break;
     case "Birthday Cupcakes":
       imagePath = birthdayCupcakesImage;
+      break;
+    case "Emoji Moods":
+      imagePath = emojiMoodsImage;
       break;
     default:
       imagePath = image;

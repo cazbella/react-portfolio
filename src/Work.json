@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Cocktail Nights",
+    "image": "./assets/images/screenshot-cocktail-nights.png",
+    "aref": "https://cazbella.github.io/mums-night/",
+    "arefrepo": "https://github.com/cazbella/mums-night",
+    "information": "A cocktail recipe and cocktail bar finder using web APIs"
+  },
+  {
+    "id": 2,
     "title": "Caroline Bella Music",
     "image": "./assets/images/caroline-bella-music.png",
     "aref": "http://carolinebellamusic.co.uk",
@@ -8,7 +16,7 @@
     "information": "This is a music website showcasing my musical skills!"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Bridgetown Concert Showband",
     "image": "./assets/images/bridgtown.png",
     "aref": "https://bridgtown-concert-band.netlify.app",
@@ -16,7 +24,7 @@
     "information": "A website for Brigtown Concert Showband"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Work Day Scheduler",
     "image": "./assets/images/Screenshot-landing-area-scheduler.png",
     "aref": "https://cazbella.github.io/work-day-scheduler/",
@@ -24,7 +32,7 @@
     "information": "This project involved creating a work day scheduler using HTML, CSS, JS. Use this to plan your working day!"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Weather Forecast Dashboard",
     "image": "./assets/images/screenshot-weather-search-showing-history.png",
     "aref": "https://cazbella.github.io/weather-forecast-dashboard/",
@@ -32,7 +40,7 @@
     "information": "This app uses an API call to Open Weather and displays current weather conditions and a five-day forecast."
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Coding Student Quiz",
     "image": "./assets/images/Screenshot-first-question.png",
     "aref": "https://cazbella.github.io/coding-student-quiz/",
@@ -40,7 +48,7 @@
     "information": "A quiz made using HTML, CSS & JS."
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Random Password Generator",
     "image": "./assets/images/screenshot-password-generator.png",
     "aref": "https://cazbella.github.io/random-password-generator/",
@@ -48,7 +56,7 @@
     "information": "Generate a random password with this application!"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Team Profile Generator",
     "image": "./assets/images/screenshot-cards.png",
     "aref": "https://cazbella.github.io/team-profile-generator/",
@@ -56,11 +64,19 @@
     "information": "Generate a view of your team with this app that utilises node.js."
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Birthday Cupcakes",
     "image": "./assets/images/Screenshot-birthday-cupcakes.png",
     "aref": "https://cazbella.github.io/birthday-cupcakes/",
     "arefrepo": "https://github.com/cazbella/birthday-cupcakes",
     "information": "This was a small, simple app to give out cakes on my birthday!"
+  },
+  {
+    "id": 10,
+    "title": "Emoji Moods",
+    "image": "./assets/images/Screenshot-emoji-moods.png",
+    "aref": "https://cazbella.github.io/birthday-cupcakes/",
+    "arefrepo": "https://github.com/cazbella/birthday-cupcakes",
+    "information": "Just a bit of fun with an inspirational quote!!"
   }
 ]
