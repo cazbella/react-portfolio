@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layout/Header";
 import "./CV.css";
-import cv from "../../assets/pdf/CarolineLaneCVJuly24PDF.pdf";
+import cv from "../../assets/pdf/CarolineLaneCVJuly24.pdf";
 import cvImage from "../../assets/pdf/cv.png";
 
 function CV() {
